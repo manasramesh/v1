@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Simple Shield Background -->
+  <path d="M16 2 L28 8 L28 24 L16 30 L4 24 L4 8 Z" 
+        fill="#3B82F6"/>
+  
+  <!-- VS Letters -->
+  <text x="16" y="22" 
+        font-family="Arial, sans-serif" 
+        font-weight="bold" 
+        font-size="14" 
+        fill="white" 
+        text-anchor="middle">
+    VS
+  </text>
+</svg>

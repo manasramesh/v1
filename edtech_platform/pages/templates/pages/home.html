@@ -118,14 +118,11 @@
                             <i className="fas fa-shield-alt text-blue-400 text-3xl"></i>
                             <span className="text-2xl font-bold gradient-text">VirtuaSec Labs</span>
                         </div>
-                        <div className="flex space-x-4">
-                            <a href="/login" className="px-6 py-2 rounded-full bg-blue-500/20 hover:bg-blue-500 border border-blue-400 transition-all duration-300">
-                                <i className="fas fa-sign-in-alt mr-2"></i>Login
-                            </a>
-                            <a href="{% url 'signup' %}" class="px-6 py-2 rounded-full bg-green-500 hover:bg-green-600 transition-all duration-300">
-                                <i className="fas fa-user-plus mr-2"></i>Register
-                            </a>
-                        </div>
+                        <div class="flex">
+    <a href="{% url 'signup' %}" class="px-6 py-2 rounded-full bg-blue-500 hover:bg-blue-600 transition-all duration-300">
+        <i class="fas fa-google mr-2"></i>Continue with Google
+    </a>
+</div>
                     </div>
                 </nav>
             );
